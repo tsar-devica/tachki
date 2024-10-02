@@ -1,0 +1,236 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_brand",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_color",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_V",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_maxSpeed",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_fuelComsump",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_timeToD",
+						"type": "uint256"
+					}
+				],
+				"name": "addTachka",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "allTachki",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "brand",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "color",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "V",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "maxSpeed",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "fuelConsump",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timeToD",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct superTachki.tachkiD[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "index",
+						"type": "uint256"
+					}
+				],
+				"name": "delTachka",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getBestTackaInfo",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "brand",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "color",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "V",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "maxSpeed",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "fuelConsump",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "timeToD",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct superTachki.tachkiD",
+						"name": "bestTachka",
+						"type": "tuple"
+					},
+					{
+						"internalType": "uint256",
+						"name": "bestTachkaIndex",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "tachki",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "brand",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "color",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "V",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "maxSpeed",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fuelConsump",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timeToD",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"ta4k1.sol": "superTachki"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"ta4k1.sol": {
+			"keccak256": "0x656e1c93675e9c38f067e78528a444bb729838267c117c3525277d6bc7bd7271",
+			"license": "MTT",
+			"urls": [
+				"bzz-raw://fdae3c72c26f40a8f02e53528404bc6f9567254a3b82f9d61729dc980c24d071",
+				"dweb:/ipfs/QmbBWiJt2UxqoKAy5VohPa6hTDCK7tbsfhaq3vBqpVcs2u"
+			]
+		}
+	},
+	"version": 1
+}
